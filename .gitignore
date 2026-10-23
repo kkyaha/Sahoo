@@ -1,0 +1,83 @@
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets.json
+credentials.json
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# OS
+Thumbs.db
+.DS_Store
+._*
+
+# Logs
+*.log
+logs/
+*.jsonl
+
+# Large files (keep but exclude from tracking if needed)
+*.csv
+*.pkl
+*.pickle
+*.parquet
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Config files with secrets (be careful when uncommenting)
+# config/config.json  # Uncomment if it contains secrets
+
+# IDE generated files
+.pylintrc
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.dmypy.json
+dmypy.json
