@@ -1,0 +1,172 @@
+{
+  "notebook_version": "v2",
+  "run_mode": "one_session",
+  "seed": 1770657989,
+  "model": "Qwen/Qwen3-8B",
+  "precision_requested": "fp16",
+  "dtype": "float16",
+  "thinking": false,
+  "samples_per_dataset": 63,
+  "max_cycles_requested": 20,
+  "max_cycles_effective": 20,
+  "max_new_tokens": 2048,
+  "temperature": 0.7071067811865475,
+  "bootstrap_samples": 2000,
+  "gen_batch_size": 16,
+  "time_budget_hours": 10.0,
+  "gpu": "Tesla T4 x2",
+  "python": "3.13.16",
+  "torch": "2.11.0+cu130",
+  "transformers": "5.20.2",
+  "output_dir": "/kaggle/working/sahoo_outputs_v2/one_session_20261118_164730",
+  "started_at": "2026-11-18T16:47:30",
+  "calibrated_thresholds": {
+    "NOMINAL": 0.0379613184124119,
+    "MILD": 0.4939808632925957,
+    "MODERATE": 0.539360241748284,
+    "SEVERE": 0.5847396202039723,
+    "CRITICAL": 0.6301189986596606
+  },
+  "convergence_threshold": 0.008139542119271287,
+  "regression_tolerance": 0.022689689227844145,
+  "precision_effective": "fp16",
+  "batched_embedding": {
+    "enabled": true,
+    "cosine_vs_original": [
+      "0.9999999",
+      "1.0"
+    ]
+  },
+  "empty_responses": 0,
+  "oom_backoffs": 1,
+  "finished": true,
+  "budget_hit": false,
+  "budget_cut_cycle": null,
+  "cycle_timings": [
+    {
+      "cycle": 0,
+      "active": 90,
+      "seconds": 481.3,
+      "batch": 16
+    },
+    {
+      "cycle": 1,
+      "active": 90,
+      "seconds": 999.2,
+      "batch": 16
+    },
+    {
+      "cycle": 2,
+      "active": 90,
+      "seconds": 1241.5,
+      "batch": 16
+    },
+    {
+      "cycle": 3,
+      "active": 90,
+      "seconds": 1619.8,
+      "batch": 16
+    },
+    {
+      "cycle": 4,
+      "active": 89,
+      "seconds": 1828.1,
+      "batch": 16
+    },
+    {
+      "cycle": 5,
+      "active": 86,
+      "seconds": 1812.0,
+      "batch": 16
+    },
+    {
+      "cycle": 6,
+      "active": 79,
+      "seconds": 1603.2,
+      "batch": 16
+    },
+    {
+      "cycle": 7,
+      "active": 77,
+      "seconds": 1773.5,
+      "batch": 16
+    },
+    {
+      "cycle": 8,
+      "active": 73,
+      "seconds": 1636.2,
+      "batch": 16
+    },
+    {
+      "cycle": 9,
+      "active": 70,
+      "seconds": 1550.1,
+      "batch": 16
+    },
+    {
+      "cycle": 10,
+      "active": 67,
+      "seconds": 1507.2,
+      "batch": 16
+    },
+    {
+      "cycle": 11,
+      "active": 66,
+      "seconds": 1412.9,
+      "batch": 16
+    },
+    {
+      "cycle": 12,
+      "active": 63,
+      "seconds": 1536.0,
+      "batch": 8
+    },
+    {
+      "cycle": 13,
+      "active": 60,
+      "seconds": 1453.7,
+      "batch": 8
+    },
+    {
+      "cycle": 14,
+      "active": 60,
+      "seconds": 1361.0,
+      "batch": 8
+    },
+    {
+      "cycle": 15,
+      "active": 59,
+      "seconds": 1306.7,
+      "batch": 8
+    },
+    {
+      "cycle": 16,
+      "active": 58,
+      "seconds": 1349.1,
+      "batch": 8
+    },
+    {
+      "cycle": 17,
+      "active": 58,
+      "seconds": 1262.6,
+      "batch": 8
+    },
+    {
+      "cycle": 18,
+      "active": 57,
+      "seconds": 1384.5,
+      "batch": 8
+    },
+    {
+      "cycle": 19,
+      "active": 57,
+      "seconds": 1456.1,
+      "batch": 8
+    }
+  ],
+  "budget_cut_task_count": 0,
+  "gen_batch_size_final": 8,
+  "runtime_minutes": 485.6,
+  "finished_at": "2026-11-19T00:53:08",
+  "run_error": null
+}
