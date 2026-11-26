@@ -1,0 +1,116 @@
+{
+  "drift_hypothesis_tests": {
+    "code_generation": {
+      "n_tasks": 16,
+      "mean_slope": 0.04338508102389262,
+      "std_slope": 0.03133510991680798,
+      "t_statistic": 5.362345839076357,
+      "t_p_value": 3.956021754014517e-05,
+      "fisher_chi2": 96.88040514895218,
+      "fisher_p_value": 1.9048515986774817e-08,
+      "reject_null": "True",
+      "interpretation": "Drift significantly increases over cycles (p=0.0000)"
+    },
+    "truthfulness": {
+      "n_tasks": 16,
+      "mean_slope": 0.016732300356872804,
+      "std_slope": 0.03571504216745132,
+      "t_statistic": 1.8144713457728305,
+      "t_p_value": 0.04482681950967824,
+      "fisher_chi2": 125.11499186343877,
+      "fisher_p_value": 5.965228311310966e-13,
+      "reject_null": "True",
+      "interpretation": "Drift significantly increases over cycles (p=0.0448)"
+    },
+    "mathematical_reasoning": {
+      "n_tasks": 16,
+      "mean_slope": 0.039992609122833436,
+      "std_slope": 0.04802758136130803,
+      "t_statistic": 3.2250366292419574,
+      "t_p_value": 0.0028328916324682884,
+      "fisher_chi2": 125.84590252853096,
+      "fisher_p_value": 4.509725926027386e-13,
+      "reject_null": "True",
+      "interpretation": "Drift significantly increases over cycles (p=0.0028)"
+    }
+  },
+  "task_type_comparisons": {
+    "gdi_comparison": {
+      "test": "Kruskal-Wallis",
+      "H_statistic": 13.898596938775484,
+      "p_value": 0.0009593079015493393,
+      "significant": "True",
+      "group_medians": {
+        "code_generation": 0.3508408258913038,
+        "truthfulness": 0.4268870910283925,
+        "mathematical_reasoning": 0.492838154363966
+      }
+    },
+    "cps_comparison": {
+      "test": "Kruskal-Wallis",
+      "H_statistic": NaN,
+      "p_value": NaN,
+      "significant": "False",
+      "group_medians": {
+        "code_generation": 1.0,
+        "truthfulness": 1.0,
+        "mathematical_reasoning": 1.0
+      }
+    },
+    "car_comparison": {
+      "test": "Kruskal-Wallis",
+      "H_statistic": 29.551020408163254,
+      "p_value": 3.82893021474284e-07,
+      "significant": "True",
+      "group_medians": {
+        "code_generation": 0.6597588185832407,
+        "truthfulness": 0.5840257823907805,
+        "mathematical_reasoning": 0.6698654446772245
+      }
+    }
+  },
+  "effect_sizes": {
+    "gdi_change": {
+      "cohens_d": 7.823991568129457,
+      "interpretation": "large",
+      "direction": "increase",
+      "first_mean": 0.0,
+      "last_mean": 0.4145513216618149
+    },
+    "cps_change": {
+      "cohens_d": 0.0,
+      "interpretation": "negligible",
+      "direction": "decrease",
+      "first_mean": 1.0,
+      "last_mean": 1.0
+    }
+  },
+  "regression_analysis": {
+    "total_regressions": 41,
+    "mean_regression_cycle": 6.926829268292683,
+    "std_regression_cycle": 5.052843893281789,
+    "regression_cycle_distribution": {
+      "min": 1,
+      "max": 17,
+      "median": 5.0
+    },
+    "quality_before_regression": {
+      "mean": 0.7793620353931496,
+      "std": 0.09462519329595377
+    },
+    "drift_before_regression": {
+      "mean": 0.2992132303321533,
+      "std": 0.12840864991239154
+    },
+    "drift_regression_relationship": {
+      "t_statistic": -2.9453946884554125,
+      "p_value": 0.0033322908347838786,
+      "significant": "True",
+      "interpretation": "No significant relationship between drift and regression"
+    }
+  },
+  "statistical_parameters": {
+    "alpha": 0.3064070807040373,
+    "confidence_level": 0.95
+  }
+}

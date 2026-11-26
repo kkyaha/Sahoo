@@ -1,0 +1,24 @@
+[
+  {
+    "task_id": "humaneval_HumanEval/12",
+    "task_type": "code_generation",
+    "cycle": 1,
+    "regression_risk": 0.7398745048032607,
+    "gdi": 0.5163618522429387,
+    "cps": 1.0,
+    "quality": 0.3784313725490196,
+    "severity": "MEDIUM",
+    "recommendation": "CAUTION: Elevated regression risk - consider intervention"
+  },
+  {
+    "task_id": "gsm8k_1236",
+    "task_type": "mathematical_reasoning",
+    "cycle": 1,
+    "regression_risk": 0.7329407515056725,
+    "gdi": 0.6160599543106862,
+    "cps": 1.0,
+    "quality": 0.7777777777777777,
+    "severity": "MEDIUM",
+    "recommendation": "CAUTION: Elevated regression risk - consider intervention"
+  }
+]
